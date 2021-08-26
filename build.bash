@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# sudo apt install jq
+
 set -euo pipefail
 
 dist="dist/"
