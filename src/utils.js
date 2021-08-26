@@ -10,7 +10,7 @@ export const defaults = {
 };
 
 export let hasPageCapture;
-if (chrome.hasOwnProperty("pageCapture")) {
+if (Object.prototype.hasOwnProperty.call(chrome, "pageCapture")) {
     hasPageCapture = true;
 } else {
     hasPageCapture = false;
